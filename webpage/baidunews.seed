@@ -1,0 +1,10 @@
+;配置文件空白样本
+name=
+firstUrl=http://internet.baidu.com/
+baseUrl=
+charset=gb2312
+headtag=<div id="container">
+foottag=<!-- newnews end -->
+splittag=<li>|<li >
+regexp=<a href="(.*?)"[^>]*>(.*?)</a>
+regexpinfo=info:2,turl:1

@@ -1,0 +1,10 @@
+;rss通用格式
+name=16zhan
+firstUrl=http://www.16zhan.com/rss.php
+baseUrl=http://www.16zhan.com/rss.php
+charset=utf-8
+headtag=<channel>
+foottag=</channel>
+splittag=<item>
+regexp=<title>(.*)</title>.*<link>(.*)</link>.*<description>(.*)</description>.*<pubDate>(.*)</pubDate>
+regexpinfo=title:1,link:2,description:3,pubDate:4

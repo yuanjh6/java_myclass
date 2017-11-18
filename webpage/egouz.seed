@@ -1,0 +1,10 @@
+;egouz配置文件
+name=egouz
+firstUrl=http://www.egouz.com/china/#
+baseUrl=http://www.egouz.com/china/pageid.html
+charset=gbk
+headtag=<div class="blueborder">
+foottag=<div id="mainright2">
+splittag=<div class="slist">
+regexp=\[(.*?)\].*?<a href=\"(.*?)\"[^>]*>(.*?)</a>[^<]*<a href=\"(.*?)\"[\s\S]*?<p>([^<]*)<span>
+regexpinfo=sitetype:1,sitename:3,siteurl:4,siteinfo:5,infourl:2
